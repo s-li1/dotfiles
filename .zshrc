@@ -13,4 +13,6 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 alias config='/usr/bin/git --git-dir=/Users/steven.li/.dotfiles/ --work-tree=/Users/steven.li'
+autoload bashcompinit && bashcompinit
 autoload -Uz compinit && compinit
+complete -C '/usr/local/bin/aws_completer' aws
