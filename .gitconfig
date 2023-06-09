@@ -1,8 +1,8 @@
 [user]
-	name = s-li1
-	email = stevenli8892@hotmail.com.au
+  name = s-li1
+  email = stevenli8892@hotmail.com.au
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [core]
   excludesfile = /Users/steven.li/.gitignore_global
 [alias]
