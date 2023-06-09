@@ -4,4 +4,6 @@
 [init]
 	defaultBranch = main
 [core]
-	excludesfile = /Users/steven.li/.gitignore_global
+  excludesfile = /Users/steven.li/.gitignore_global
+[alias]
+  revertf = !sh -c 'git show $1 -- $2 | git apply -R' -
